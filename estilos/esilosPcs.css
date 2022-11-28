@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    
+}
+
+header{
+    background-color: rgb(70, 63   ,87);
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header>a{
+    margin-left: 30px;
+}
+header>a>img{
+    width: 50px;
+    height: 50px;
+    
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    margin: 0px;
+}
+
+
+
+header >img{
+    
+    height: 4rem;
+    padding-right: 30px;
+}
+#subCuerpo{
+display: flex;
+margin-top: 30px;
+
+}
+.caja{
+    box-shadow: 7px 7px 15px rgb(70, 63   ,87); 
+    text-decoration: none;
+    margin: 8px 20px 8px 20px;
+    padding: 1rem;
+    display: flex;
+    flex-flow: column;
+    width: 20rem;
+    height: 30rem;
+    border-radius: 20px;
+}
+a>img{
+    width: 100%;
+    height: 100%;
+}
+div >a{
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+}
+button{
+   background-color: rgb(70, 63   ,87);
+   color: white;
+   font-size: 30px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border-radius: 30px;
+   height: 3rem;
+   margin-top: 35px;
+   
+}
+button:hover{
+    box-shadow: 7px 7px 15px rgb(70, 63   ,87);
+}
+
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin: 0px;
+}
+@media (max-width:1666px) {
+    #subCuerpo{
+        flex-flow: wrap
+       
+    }
+    
+}

@@ -1,0 +1,272 @@
+header{
+    width: 100%;
+    background-image: url(imagenes/portada.png) ;
+    
+    
+} 
+body{
+    
+    background-color: rgb(246, 247, 252);
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.logo{
+    width: 10rem;
+    height: 10rem;
+}
+.contBuscar{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 100%;
+    
+}
+ .cuenta{
+    
+   
+   
+    
+}
+.contBuscar .cuenta a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem 3rem 1rem 3rem;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(70, 63   ,87);
+    border-radius: 10px 10px 10px 10px;
+   
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.cuenta a:hover{
+background-color: #ddd;
+color: rgb(70, 63   ,87);
+}
+.busca{
+    width: 40rem;
+    display: flex;
+    align-items: center;
+}
+.busca > input{
+    border-radius: 20px 20px 20px 20px;
+    height: 100%;
+    width: 100% ;
+    padding-left: 10px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bts{
+    border-radius: 50%;
+    background-color: rgb(70, 63   ,87);
+    width: 55px;
+    height: 50px;
+    box-shadow: 7px 7px 15px rgb(70, 63   ,87); 
+    
+    
+}
+.bts >img{
+    width: 20px;
+    height: 20px;
+    padding: 7px;
+}
+.redes{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(70, 63   ,87);
+    
+}
+.redes>button{
+    margin: 5px;
+    width: 70px;
+    height: 60px;
+    border-radius: 10px;
+    
+}
+.redes>button>img{
+width: 100%;
+height: 100%;
+
+
+}
+hr{
+    margin: 0px;
+    padding: 0px;
+    border: 20px;
+}
+
+
+/* styling navlist */
+.tipos {
+    display: flex;
+    background-color: rgb(70, 63   ,87);
+   margin: 0px;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    
+}
+      
+/* styling navlist anchor element */
+.tipos a {
+    
+    
+    width: 100%;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tipos a:hover {
+    background-color: #ddd;
+    color: black;
+    width: 100%;
+    
+}
+
+.totalcom{
+    display: flex;
+   flex-flow: column;
+   width: 1600px;
+    
+    
+}
+.componentes{
+    display: flex;
+    
+    width: 100%;
+    height: 100%;
+    
+    
+    justify-content: space-around;
+    
+    
+}
+
+
+.componentes >a{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+    width: 18rem;
+    height: 25rem;
+    
+    margin: 10px;
+    text-decoration: none;
+    padding-top: 20px;
+    border-radius: 30px;
+    box-shadow: 7px 7px 15px rgb(70, 63   ,87);
+   
+}
+
+.componentes  :hover{
+    
+  
+}
+
+h3{
+    margin: 0px;
+    padding-left: 10px;
+    align-self: flex-start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(70, 63   ,87);
+}
+p{
+    text-align: justify;
+    padding: 0px 20px 0px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #989898;
+    
+}
+.componentes >a >img{
+    height: 160px;
+    width: 190px;
+    
+    
+}
+h2{
+    margin: 10px 20px 0px 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    
+} 
+
+.subBody{
+    display: flex;
+    height: auto;
+    width: 100%;
+    
+    
+    
+    
+}
+#mapa{
+    
+    height:50rem;
+    width: 20rem;
+   margin-right: 10px;
+   box-shadow: 7px 7px 15px rgb(70, 63   ,87);
+    border-radius: 30px;
+    
+}
+footer{
+    background-color:rgb(70, 63   ,87) ;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (max-width:767px) {
+    
+   .tipos{
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       height: 100%;
+       
+   }
+   .tipos a{
+    padding: 5px 5px;
+    width: 100%;
+   }
+
+   .contBuscar{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+.componentes{
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.busca{
+    margin: 20px;
+}
+}
+
+
+@media (max-width:1666px) {
+    .subBody{
+        
+        flex-wrap: wrap;
+        
+        
+        
+    }
+    #mapa{
+        width: 100%;
+        height: 15rem;
+        margin: 5rem;
+    }
+    .componentes{
+        flex-wrap: wrap;
+    }
+}

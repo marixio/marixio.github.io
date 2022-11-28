@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: url(../imagenes/fondo\ cuenta.jpg) no-repeat center top;
+    
+}
+form{
+    display: flex;
+    flex-flow: column;
+    box-shadow: 7px 7px 15px rgb(24, 23, 27); 
+    width: 20rem;
+    height: 24rem;
+    border-radius: 30px;
+    align-items: center;
+    margin: 80px;
+    background-color: #000;
+    padding-top: 5rem;
+    
+}
+div{
+    width: 8rem;
+    height: 8rem;
+    
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50px;
+    
+
+}
+img{
+    width: 6rem;
+    height: 6rem;
+}
+label{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    align-self: flex-start;
+    padding-left: 4rem;
+}
+.caja{
+    width: 15rem;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    height: 40px;
+}
+p{
+    color: rgb(215, 215, 223);
+}
+.login{
+    background-color: rgb(70, 63   ,87);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 20px;
+    width: 200px;
+    border-radius: 20px ;
+    border: solid 2px transparent;
+    margin-top: 20px;
+}
+.login:hover{
+    background-color: rgba(180,180,187,1);
+}
+a{
+    margin: 3px;
+    align-self: flex-start;
+    margin-left: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    color: darkgrey;
+    text-decoration: none;
+    line-height: 20px;
+}
